@@ -1,3 +1,5 @@
+/* ******* APP SECTION ******* */
+
 .App {
   text-align: center;
 }
@@ -7,20 +9,28 @@
   pointer-events: none;
 }
 
+/* ******* FIRST SECTION ******* */
+
+.first-section-title {
+
+}
+
+.first-section-subtitle {
+  
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
-.App-header {
-  background-color: #282c34;
+.App-body {
+  background-color: black;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  position: relative;
   color: white;
 }
 
